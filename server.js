@@ -6,5 +6,5 @@ app.listen(3000, () => {
 });
 
 app.get("/api", (req, res) => {
-    res.status(200).send("Criando uma rota inicial.");
+    res.status(200).send("<h2>Criando uma rota inicial.</h2>");
 });
