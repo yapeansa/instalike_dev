@@ -18,16 +18,17 @@
     "bugs": "",
     "keywords": [],
     "author": {
-        "name": "",
-        "email": "",
-        "url": ""
+        "name": "Yago",
+        "email": "yago.pereira@estudante.ufjf.br",
+        "url": "https://yago.bohr.io"
     },
     "contributors": [],
     "scripts": {
-        "dev": "",
+        "dev": "node --watch --env-file=.env server.js",
         "test": ""
     },
     "dependencies": {
-        "express": "^4.21.1"
+        "express": "^4.21.1",
+        "mongodb": "^6.10.0"
     }
 }
